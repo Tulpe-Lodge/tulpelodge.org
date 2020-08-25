@@ -390,10 +390,12 @@ li.dropdown-item a.nav-link:active {
 	border-radius: 0 !important;
 	box-shadow: 0 2px 8px rgba(0,0,0,.1);
 }
-.fixed-top { position: relative; }
+.fixed-top {
+  position: relative;
+  z-index:50 !important;
+}
 .fixed-top.scrolled {
   position: fixed;
-  z-index:50 !important;
 }
 
 #secondaryNav .navbar-toggler {
