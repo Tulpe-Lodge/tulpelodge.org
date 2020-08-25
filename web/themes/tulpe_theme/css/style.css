@@ -1,7 +1,6 @@
 /* set fonts */
 .museo-sans{font-family:"museo-sans",sans-serif;}
 .museo-slab{font-family:"museo-slab",serif;}
-.permanent-marker { font-family: "permanent-marker",sans-serif; }
 
 /* standard elements */
 html, body {
@@ -9,12 +8,11 @@ html, body {
 }
 
 body {
-  font-size: 1rem;//20px;
+  font-size: 1rem;
   color: #212529;
   font-family: 'museo-sans', sans-serif;
   display: flex;
   flex-direction: column;
-  //background: #FEFEFE;
 }
 
 @media screen and (min-width: 992px) {
@@ -27,7 +25,6 @@ body {
 
 p {
   line-height: 1.5;
-  //margin: 30px 0;
 }
 
 
@@ -253,7 +250,6 @@ img::-moz-selection {
 /* navigation */
 .navbar.navbar-light {
   background-color: transparent !important;
-  //background-color: #fff !important;
   font-family: 'museo-sans', sans-serif;
 }
 
@@ -262,7 +258,7 @@ img::-moz-selection {
 }
 
 .navbar-brand > * {
-  font-family: permanent-marker, sans-serif !important;
+  font-family: 'museo-sans', sans-serif !important;
   font-style: normal;
   font-weight: 400;
 }
@@ -294,7 +290,6 @@ img::-moz-selection {
 .logo {
   float: left;
   width: 100%;
-  //max-width: 150px;
   padding: 5px;
   margin: auto 0;
   display: inline-block;
@@ -309,7 +304,6 @@ img::-moz-selection {
   margin: auto 0;
   display: inline-block;
   vertical-align: middle;
-  //max-height: 70px;
 }
 
 .navbar-light .navbar-light {
@@ -320,7 +314,7 @@ img::-moz-selection {
 }
 
 .navbar-light.scrolled, .navbar-light:hover, .navbar-light:active {
-    background-color: #fff !important;
+  background-color: #fff !important;
 	transition: background-color 400ms linear;
 }
 
@@ -335,10 +329,10 @@ img::-moz-selection {
 .navbar li.nav-item a.dropdown-item:hover { color: #E31837; }
 
 .navbar-light .navbar-toggler {
-    color: #343a40;
-    border-color: none;
-	border: none;
-	box-shaddow: none;
+  color: #343a40;
+  border-color: none;
+  border: none;
+  box-shaddow: none;
 }
 
 li.dropdown-item {
@@ -454,7 +448,6 @@ li.dropdown-item a.nav-link:active {
 		}
 		.navbar-brand img.logo {
 			width: 100% !important;
-			//max-width: 240px !important;
 		}
 	}
 	.navbar li.nav-item a.nav-link {
@@ -531,7 +524,6 @@ li.dropdown-item a.nav-link:active {
 
 /* header - banner images, carousel */
 header.masthead {
-  //margin-bottom: 25px;
   background: no-repeat center center;
   background-color: #868e96;
   background-attachment: scroll;
@@ -720,7 +712,6 @@ p.card-text { margin-top: 0; }
 }
 
 .row.projects .card-img-overlay {
-  //display: none !important;
   overflow: hidden;
   background-color: rgba(0,0,0,0);
   -webkit-transition: all 1s ease;
@@ -808,7 +799,7 @@ footer .list-inline {
   padding-top: 25px;
   padding-bottom: 20px;
   text-align: center;
-  background-color: #36454F;//#20292F;
+  background-color: #36454F;
   margin-top: -1px;
 }
 
