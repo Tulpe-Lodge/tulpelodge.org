@@ -28,6 +28,7 @@ web/profiles/*.txt
 web/sites/*.txt
 web/sites/example.*
 web/sites/development.*
+web/sites/default/default.*
 web/sites/*/files
 web/sites/*/private
 web/sites/*/settings*.php
