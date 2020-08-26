@@ -17,7 +17,7 @@
   console.log(dimensions);
   if ($documentHeight > ($windowHeight+162)) {
     $(document).scroll(function () {
-  	var $nav = $(".bg-light");
+  	var $nav = $("#mainNav");
   	$nav.toggleClass('scrolled shadow-sm', $(this).scrollTop() > $nav.height());
     });
   }

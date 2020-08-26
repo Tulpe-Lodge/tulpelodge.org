@@ -40,13 +40,12 @@
       {%
         set item_classes = [
           item.is_expanded ? 'expanded dropdown',
-          'nav-item',
-          'my-lg-3'
+          'nav-item'
         ]
       %}
       {% if menu_level == 0 %}
         <li{{ item.attributes.addClass(item_classes) }}>
-			{{ link(item.title, item.url, { 'class':['nav-link', item.is_expanded ? 'dropdown-toggle'] }) }}
+			{{ link(item.title, item.url, { 'class':['nav-link my-lg-3', item.is_expanded ? 'dropdown-toggle'] }) }}
       {% else %}
 		{% if item.title == "divider" %}
 			<div class="dropdown-divider"></div>
