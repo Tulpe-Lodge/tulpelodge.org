@@ -37,10 +37,11 @@
       <div class="dropdown-menu">
     {% endif %}
     {% for item in items %}
-	  {%
+      {%
         set item_classes = [
           item.is_expanded ? 'expanded dropdown',
-		  'nav-item'
+          'nav-item',
+          'my-lg-3'
         ]
       %}
       {% if menu_level == 0 %}
