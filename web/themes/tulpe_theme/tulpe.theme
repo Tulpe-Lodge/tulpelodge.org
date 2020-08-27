@@ -32,6 +32,12 @@
      '#title' => t('Red Navbar'),
      '#default_value' => theme_get_setting('red_navbar'),
    );
+   $form['navbar_settings']['sticky_navbar'] = array(
+     '#type' => 'checkbox',
+     '#title' => t('Fix Navbar at Top'),
+     '#description'   => t("Navbar will stay visible when scrolling."),
+     '#default_value' => theme_get_setting('sticky_navbar'),
+   );
  }
 
 /**
@@ -116,4 +122,5 @@ function tulpe_preprocess_page(array &$variables) {
   $variables['site_slogan'] = $config->get('slogan');
   $variables['logo_text'] = theme_get_setting('logo_text');
   $variables['red_navbar'] = theme_get_setting('red_navbar');
+  $variables['sticky_navbar'] = theme_get_setting('sticky_navbar');
 }
