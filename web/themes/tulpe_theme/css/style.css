@@ -114,7 +114,7 @@ img::-moz-selection {
     background-color: #36454f !important;
 }
 
-.bg_danger {
+.bg-danger {
     background-color: #e31837 !important;
 }
 
@@ -604,6 +604,7 @@ header.masthead .site-heading .subheading {
   color: #36454f;
 }
 .featured-icons a {
+  fill: #fff;
   color: #fff;
 }
 .featured-icons a:hover {
