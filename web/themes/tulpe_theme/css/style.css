@@ -106,6 +106,17 @@ img::-moz-selection {
   background: #30363d;
   color: #fff;
 }
+.bg-primary {
+    background-color: #005596 !important;
+}
+
+.bg-secondary {
+    background-color: #36454f !important;
+}
+
+.bg_danger {
+    background-color: #e31837 !important;
+}
 
 .btn {
   font-size: 14px;
@@ -116,6 +127,10 @@ img::-moz-selection {
   border-radius: 0;
   font-family: 'museo-sans', sans-serif;
   margin-bottom: 10px;
+}
+.btn-danger {
+    background-color: #e31837;
+    outline: #e31837;
 }
 
 @media screen and (max-width: 575.98px) {
@@ -577,6 +592,30 @@ header.masthead .site-heading .subheading {
   header.masthead .site-heading h1 {
     font-size: 80px;
   }
+}
+
+/* featured icons */
+.featured-icons {
+  fill: #fff;
+  color: white;
+}
+.featured-icons .bg-light {
+  fill: #e31837;
+  color: #36454f;
+}
+.featured-icons a {
+  color: #fff;
+}
+.featured-icons a:hover {
+  color: #e6e7e8;
+  fill: #e6e7e8;
+}
+.featured-icons .bg-light a {
+  color: #36454f;
+}
+.featured-icons .bg-light a:hover {
+  fill: #005596;
+  color: #005596;
 }
 
 /* form overrides */

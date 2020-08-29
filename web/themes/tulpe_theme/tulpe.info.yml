@@ -10,10 +10,12 @@ libraries:
   - tulpe/js-header
 regions:
   primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
   banner_image: 'Banner Image'
   banner_text: 'Banner Text'
   header: Header
-  secondary_menu: 'Secondary menu'
+  featured_icons: 'Featured Icons'
+  front_upcoming_events: 'Front Upcoming Events'
   page_top: 'Page top'
   content: 'Content'
   page_bottom: 'Page bottom'

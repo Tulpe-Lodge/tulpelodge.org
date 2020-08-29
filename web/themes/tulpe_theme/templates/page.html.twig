@@ -211,7 +211,29 @@
 
 {{ page.header }}
 
-
+{% if is_front %}
+<div class="container-fluid">
+  {% if show_cta %}
+  <div class="row p-lg-5 p-md-4 p-3 py-4 bg-secondary text-light align-items-center">
+    <div class="col-xl-9">
+      <h3>{{ cta_text }}</h3>
+    </div>
+    <div class="col-xl-3 mt-xl-0 mt-4">
+      <a href="{{ cta_btn_link ? cta_btn_link : '#' }}" class="btn btn-danger d-xl-block" target="{{ cta_new_tab ? '_blank' : '' }}">{{ cta_btn_text }}</a>
+    </div>
+  </div>
+  {% endif %}
+  {% if page.featured_icons %}
+    {{ page.featured_icons }}
+  {% endif %}
+  {% if page.front_upcoming_events %}
+    {{ page.front_upcoming_events }}
+  {% endif %}
+  {% if page.content %}
+    {{ page.content }}
+  {% endif %}
+</div>
+{% else %}
 <div class="container mt-4 mb-3">
   <div class="row">
 	{% if page.primary_sidebar or page.secondary_sidebar %}
@@ -229,6 +251,7 @@
 	{% endif %}
   </div>
 </div>
+{% endif %}
 
 <footer class="footer">
   {% if page.first_footer or page.second_footer or page.third_footer %}

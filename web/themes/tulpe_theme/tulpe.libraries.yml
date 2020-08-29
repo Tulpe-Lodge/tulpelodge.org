@@ -3,7 +3,7 @@ global-styling-and-scripts:
   css:
    base:
     'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css': { type: external, minified: true }
-    vendor/font-awesome/css/font-awesome.min.css: { minified: true }
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css': { type: external, minified: true }
     'https://use.typekit.net/awb5aoh.css': { type: external }
     vendor/lightGallery/dist/css/lightgallery.css: {}
     css/style.css: {}
