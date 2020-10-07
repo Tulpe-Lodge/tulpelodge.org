@@ -32,6 +32,7 @@
         "drupal/obfuscate_email": "^1.2",
         "drupal/pathauto": "^1.8",
         "drupal/recaptcha": "^3.0",
+        "drupal/redirect": "^1.6",
         "drupal/rot13": "^1.2",
         "drupal/search404": "^2.0",
         "drupal/search_exclude": "^1.2",
