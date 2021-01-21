@@ -1,0 +1,12 @@
+diff --git a/block_exclude_pages.module b/block_exclude_pages.module
+index 651f02e..0029ec5 100644
+--- a/block_exclude_pages.module
++++ b/block_exclude_pages.module
+@@ -56,6 +56,7 @@ function block_exclude_pages_fnmatch($pattern, $string, $flags = 0) {
+     '\]'    => ']',
+     '\.'    => '\.',
+     '\\'    => '\\\\',
++    '\-'    => '\-',
+   ];
+   // Forward slash in string must be in pattern:
+   if ($flags & FNM_PATHNAME) {

@@ -1,0 +1,7 @@
+{
+  "patches": {
+    "drupal/block_exclude_pages": {
+      "url-with-hyphen": "patches/url-with-hyphen.patch"
+    }
+  }
+}
