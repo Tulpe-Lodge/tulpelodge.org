@@ -40,7 +40,7 @@
         "drupal/search_exclude": "^1.2",
         "drupal/simple_sitemap": "^3.6",
         "drupal/token": "^1.7",
-        "drupal/upgrade_status": "^2.7",
+        "drupal/upgrade_status": "^3.4",
         "drupal/video_embed_field": "^2.4",
         "drupal/video_embed_wysiwyg": "^2.4",
         "drupal/webform": "^5.16",
